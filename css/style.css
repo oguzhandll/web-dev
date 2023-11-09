@@ -1,0 +1,128 @@
+/* Varsayılan HTML Etiket CSS Özelliklerini Yeniden Ayarlama */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+button{
+    border: none;
+    padding: 14px 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.5;
+}
+/* Header */
+header{
+    position: relative;
+}
+.merkez{
+    
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    background-color: #333;
+    color: #F4BD01;
+    transition: ease-out 0.5s;
+
+}
+
+.btn:hover{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+/* Nav */
+ nav ul{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+
+ nav ul li a{
+    color: #F4BD01;
+    padding: 20px;
+    display: block;
+    transition: ease-out 0.3s;
+ }
+
+ nav ul li a:hover{
+    padding-left: 30px;
+    color:whitesmoke
+ }
+  /* Main */
+  
+main{
+    display: flex;
+}
+
+#gonderi{
+    flex: 2;  /*%66,66*/
+    padding: 10px;
+}
+
+#Yanİcerik{
+    flex: 1; /*%33,33*/
+    padding: 10px;
+}
+
+/* Kartlar */
+
+.kart{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.kartTarih{
+    font-style: italic;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.kartResim{
+    border-radius: 5px;
+}
+
+.kartBtn{
+    background-color: #F4BD01;
+    color: #333;
+    transition: ease-out 0.5s;
+}
+
+.kartBtn:hover{
+    background-color: #333;
+    color:#F4BD01
+}
+
+.avatar{
+    position: relative;
+
+}
+
