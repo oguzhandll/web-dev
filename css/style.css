@@ -121,8 +121,36 @@ main{
     color:#F4BD01
 }
 
-.avatar{
-    position: relative;
-
+.kartBas{
+    text-transform: capitalize;
 }
 
+/* Sosyal İkonlar */
+
+#sosyal{
+    display: flex;
+}
+
+#sosyal li{
+    padding: 10px;
+}
+
+#sosyal li a{
+    color: #F4BD01;
+    transition: ease-in-out 0.5s
+}
+
+#sosyal li a:hover{
+    color:#333
+}
+
+/* Popüler Gönderiler */
+
+.populerResim {
+    margin-bottom: 3px;
+    transition: ease-out 0.5s
+}
+
+.populerResim:hover{
+    transform: rotate(10deg);
+}
